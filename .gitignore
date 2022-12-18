@@ -15,3 +15,4 @@
 # vendor/
 
 internal/util
+dist/
