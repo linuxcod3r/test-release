@@ -13,12 +13,12 @@ builds:
 
 archives:
     - name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ .Arm }}"
-      format: tar.xz
+      format: tar.gz
       format_overrides:
         - goos: windows
           format: zip
       replacements:
-          darwin: macOS
+          darwin: mac
       wrap_in_directory: true
 checksum:
   name_template: "checksums.txt"
