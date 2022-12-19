@@ -12,6 +12,7 @@ func main() {
 	name("Ryuk")
 	u.Loop(10)
 	u.Name()
+	fmt.Println("added something else")
 
 }
 
