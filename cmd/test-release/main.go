@@ -11,6 +11,7 @@ func main() {
 	fmt.Println("Square of 5 is", c.Square(5))
 	name("Ryuk")
 	u.Loop(10)
+	u.Name()
 
 }
 
