@@ -13,6 +13,12 @@ func Loop(x int) {
 	}
 }
 
+type Employee struct {
+	id int
+	name string
+	salary int
+}
+
 func Name() {
 	buf := bufio.NewScanner(os.Stdin)
 	fmt.Println("Enter your name:")
